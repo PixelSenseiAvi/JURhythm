@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:itemTextColor="@color/selector_nav_items"
+    app:background="@drawable/angel_nav">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/ic_events"
+            android:title="EVENTS" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_university"
+            android:title="ABOUT JU"/>
+        <item
+            android:id="@+id/maps"
+            android:icon="@drawable/ic_maps"
+            android:title="MAPS" />
+        <item
+            android:id="@+id/contactUs"
+            android:icon="@drawable/ic_contactus"
+            android:title="CONTACT" />
+        <item
+            android:id="@+id/developers"
+            android:icon="@drawable/ic_developers"
+            android:title="OUR TEAM" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cultural_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="25dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="50dp"
+            android:layout_centerHorizontal="true"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9"
+            android:layout_gravity="center"
+            android:layout_margin="7dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/our_image"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@color/MistyRose"
+                />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/our_image"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:paddingBottom="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_text"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:paddingBottom="5dp"
+            android:lines="2"
+            android:id="@+id/role"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:lines="2"
+            android:paddingBottom="5dp"
+            android:maxLines="1"
+            android:textColor="#01579B"
+            android:gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>

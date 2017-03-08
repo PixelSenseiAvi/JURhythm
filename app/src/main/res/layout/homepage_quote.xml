@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    cardview:cardElevation="3dp"
+    android:background="@color/MistyRose">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imgQuote"
+            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+
+</android.support.v7.widget.CardView>

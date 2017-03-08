@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/eSummit_layout"
+    android:background="#EFEBE9">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ESummit_grid_view"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:gravity="top"
+        android:layout_marginTop="55dp"
+        android:verticalSpacing="11dp"
+        android:horizontalSpacing="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="#EFEBE9"
+        />
+</FrameLayout>

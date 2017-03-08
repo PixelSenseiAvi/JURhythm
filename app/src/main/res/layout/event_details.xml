@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:clickable="true"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="150dp"
+                android:id="@+id/eventImage1"
+                android:layout_marginTop="20dp"
+                android:clickable="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_margin="7dp"
+                android:layout_marginTop="7dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Prize: INR"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:layout_marginBottom="4dp"/>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/e_prize"
+                    android:textSize="25sp"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="4dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rules:"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_margin="7dp"
+                />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:orientation="vertical"
+                    android:background="#EFEBE9">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rules"
+                        android:ellipsize="end"
+                        android:textSize="16sp"
+                        android:padding="7dp"
+                        android:layout_margin="4dp"/>
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35sp"
+                    android:textSize="20sp"
+                    android:text="Participation Fees: INR"
+                    android:layout_margin="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/e_fees"
+                    android:layout_margin="5dp"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="4dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event Coordinator:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="7dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingLeft="7dp"
+                    android:id="@+id/coordinator"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="Contact:"
+                    android:paddingLeft="7dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:id="@+id/contact_detail"
+                    android:textSize="15sp"
+                    android:paddingLeft="7dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                <Button
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/registerNow"
+                    android:text="Register Now"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimary"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                <Button
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:id="@+id/more"
+                    android:text="Find out More"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimary"
+                    android:textSize="11sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
