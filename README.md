@@ -2,7 +2,7 @@
 This Projects illustrates basic use of Navigation Drawer with fragments, The use of intents, Handling Fragment activity,etc.
 
 # Navigation drawer
-[![Navigation drawer](https://github.com/rockchik/JURhythm/blob/master/Screenshot_2017-05-10-21-45-10-579_com.yoavi.rando.png | height="400")](#features)
+[![Navigation drawer](https://github.com/rockchik/JURhythm/blob/master/Screenshot_2017-05-10-21-45-10-579_com.yoavi.rando.png =24x48)](#features)
 
 navigation drawer to traverse between different fragments.
 
